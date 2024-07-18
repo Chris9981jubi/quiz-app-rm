@@ -1,0 +1,49 @@
+.container{
+    width: 700px;
+    margin:auto;
+    margin-top: 150px;
+    background: slategray;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    padding: 40px 50px
+}
+.container h2{
+    font-size: 25px;
+    font-weight: 500px;
+}
+.container ul li{
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding-left: 15px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    cursor: pointer;
+} 
+.container button{
+    margin: auto;
+    width:150px;
+    height: 60px;
+    background: blue;
+    font-size: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.container .index{
+    margin: auto;
+    font-size: 18px;
+}
+.container .correct{
+    background: #dffff2;
+    border-color: rgb(2, 70, 2);
+}
+.container .Incorrect{
+    background: #ffebeb;
+    border-color:#ff4a4a
+}
